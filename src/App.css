@@ -1,0 +1,17 @@
+input{
+    /* width: 100%; */
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 7px;
+
+}
+
+.grid-row{
+    margin: 10px 5px;
+}
+
+.add-button{
+    min-width: 80px;
+}
+
+
