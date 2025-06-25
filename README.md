@@ -31,10 +31,10 @@ Welcome is conditionally rendered when there are no tasks to show.
 
 
 ## Clone the repository
-git clone https://github.com/your-username/react-todo-app.git
+git clone https://github.com/bhawnakushwaha/react_todo_app.git
 
 ## Navigate into the folder
-cd todoproject
+cd react_todo_app
 
 ## Install dependencies
 npm install
