@@ -13,7 +13,7 @@ A simple and clean ToDo App built with React, allowing users to add, view, and d
 
 
 ## Tech Stack
-React (via create-react-app)
+React (via npm create vite@latest)
 JavaScript (ES6+)
 CSS
 Bootstrap
