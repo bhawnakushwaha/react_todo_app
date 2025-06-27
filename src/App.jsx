@@ -7,25 +7,8 @@ import Welcome from "./components/Welcome";
 
 
 
+
 function App(){
-
-
-// const initialtodo_items= [
-//   {
-//     name: "buy milk",
-//     dueDate: "4/4/25",
-//   },
-//   {
-//     name: "go to college",
-//     dueDate: "5/4/25",
-//   },
-//   {
-//     name: "out for play",
-//     dueDate: "10/5/25",
-//   },
-//  ]
-
-// const [todo_items, setTodoItem] = useState(initialtodo_items);
 
 const [todo_items, setTodoItem] = useState([]);
 
@@ -51,10 +34,10 @@ const handleDelete = (todoitemName) =>{
     <center className="todo-container">
       <Heading/>
       <Addtodo OnNewItem = {HandleNewItem}/>
-      { todo_items.length === 0 && <Welcome/> }  
+      <Welcome todo_items={todo_items} />  
       <TodoitemList todo_items={todo_items} onDeleteClick= { handleDelete } ></TodoitemList>
            
-    </center>   
+    </center>  
   );
 }
 

@@ -35,7 +35,7 @@ const handleOnButtonClick = (event)=>{
           </div>
           
           <div className="col-2">
-            <button type="button" className="btn btn-primary add-button" >
+            <button type="submit" className="btn btn-primary add-button" >
               Add </button>
           </div>
  
