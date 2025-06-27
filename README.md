@@ -28,6 +28,13 @@ TodoitemList displays each task and provides a delete option.
 
 Welcome is conditionally rendered when there are no tasks to show.
 
+## Screenshots
+![Screenshot (127)](https://github.com/user-attachments/assets/e7d88401-2868-49b8-a55a-f1fed8151cea)
+
+![Screenshot (128)](https://github.com/user-attachments/assets/d686186a-ba7b-4fd8-ab08-0856bc8dbf1c)
+
+
+![Screenshot (129)](https://github.com/user-attachments/assets/24250ef3-3bd4-4a0c-b804-c69928eb94c8)
 
 
 ## Clone the repository
@@ -35,6 +42,7 @@ git clone https://github.com/bhawnakushwaha/react_todo_app.git
 
 ## Navigate into the folder
 cd react_todo_app
+
 
 ## Install dependencies
 npm install
