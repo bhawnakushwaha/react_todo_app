@@ -1,4 +1,5 @@
 import { useState } from "react";
+import styles from "./Addtodo.module.css";
 
 function Addtodo({OnNewItem}){
 
@@ -21,27 +22,31 @@ const handleOnButtonClick = (event)=>{
   
 }
 
+const today = new Date().toISOString().split("T")[0];
 
-    return <div className="list-container">
-    <form className="row grid-row" 
+    return (
+    <div className={styles["list-container"]}>
+    <form className={`row ${styles["grid-row"]}`} 
     onSubmit={handleOnButtonClick} >
           
           <div className="col-6">
-            <input type="text" placeholder="Enter your today's goal" value={Additem} onChange={handleNameChange}/>
+            <input type="text" placeholder="Enter your goal" value={Additem} onChange={handleNameChange} className="form-control"/>
           </div>
           
           <div className="col-4">
-            <input type="date" value={dueDate} onChange={handleDateChange} />
+            <input type="date" value={dueDate} onChange={handleDateChange} className="form-control" min={today}/>
           </div>
           
           <div className="col-2">
-            <button type="submit" className="btn btn-primary add-button" >
+            <button type="submit" className={`btn btn-primary ${styles["add-button"]}`} >
               Add </button>
           </div>
  
     </form>
     </div>
+    );
 }
+
 
 export default Addtodo;
 

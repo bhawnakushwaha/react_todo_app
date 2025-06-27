@@ -1,9 +1,9 @@
-import Heading from "./components/heading";
 import Addtodo from "./components/addtodo";
 import TodoitemList from "./components/TodoitemList";
 import "./App.css";
 import { useState } from "react";
 import Welcome from "./components/Welcome";
+import Navbar from "./components/Navbar";
 
 
 
@@ -32,7 +32,7 @@ const handleDelete = (todoitemName) =>{
 
   return(
     <center className="todo-container">
-      <Heading/>
+      <Navbar />
       <Addtodo OnNewItem = {HandleNewItem}/>
       <Welcome todo_items={todo_items} />  
       <TodoitemList todo_items={todo_items} onDeleteClick= { handleDelete } ></TodoitemList>
