@@ -11,6 +11,8 @@ A simple and clean ToDo App built with React, allowing users to add, view, and d
 
 🎯 Component-based structure using modern React features like useState and props
 
+☀︎ Dark and light Theme
+
 
 ## Tech Stack
 React (via npm create vite@latest)
